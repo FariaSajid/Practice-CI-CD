@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CI/CD Practice App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>CI/CD Practice App</h1>
+      <p class="subtitle">Deployed automatically with GitHub Actions + Vercel</p>
+
+      <section class="section">
+        <h2>Greeting</h2>
+        <input id="name-input" type="text" placeholder="Apna naam likho" />
+        <button id="greet-btn">Greet me</button>
+        <p id="greeting" class="output">Hello, World!</p>
+      </section>
+
+      <section class="section">
+        <h2>Counter</h2>
+        <div class="counter">
+          <button id="dec-btn" aria-label="Decrease">-</button>
+          <span id="count">0</span>
+          <button id="inc-btn" aria-label="Increase">+</button>
+        </div>
+        <p class="hint">Counter 0 se 10 ke beech rehta hai.</p>
+      </section>
+
+      <footer>Version 1.0</footer>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
