@@ -13,10 +13,10 @@ greetBtn.addEventListener("click", () => {
   greeting.textContent = greet(nameInput.value);
 });
 
-function updateCount(step) {
-  count = nextCount(count, step);
-  countEl.textContent = String(count);
-}
+// function updateCount(step) {
+//   count = nextCount(count, step);
+//   countEl.textContent = String(count);
+// }
 
 incBtn.addEventListener("click", () => updateCount(1));
 decBtn.addEventListener("click", () => updateCount(-1));
