@@ -13,8 +13,8 @@ test("index.html CSS aur JS files ko link karta hai", () => {
   assert.match(html, /src="script\.js"/);
 });
 
-// test("index.html mein zaroori buttons aur elements hain", () => {
-//   for (const id of ["name-input", "greet-btn", "greeting", "inc-btn", "dec-btn", "count"]) {
-//     assert.ok(html.includes(`id="${id}"`), `id="${id}" missing hai`);
-//   }
-// });
+test("index.html mein zaroori buttons aur elements hain", () => {
+  for (const id of ["name-input", "greet-btn", "greeting", "inc-btn", "dec-btn", "count"]) {
+    assert.ok(html.includes(`id="${id}"`), `id="${id}" missing hai`);
+  }
+});
