@@ -1,6 +1,6 @@
-// import { test } from "node:test";
-// import assert from "node:assert/strict";
-// import { greet, clampCount, nextCount } from "../public/utils.js";
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { greet, clampCount, nextCount } from "../public/utils.js";
 
 test("greet() naam ke saath", () => {
   assert.equal(greet("Ali"), "Hello, Ali!");
